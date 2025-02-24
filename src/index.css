@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  :root {
+    font-size: 12px;
+  }
+}
