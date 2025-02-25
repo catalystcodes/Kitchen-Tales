@@ -1,5 +1,6 @@
 import AppInput from "../components/atoms/AppInput";
 import EffortlessEatsSection from "../components/molecules/EffortlessEatsSection";
+import HealthyEatingInspirationSection from "../components/molecules/HealthyEatingInspirationSection";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       </div>
       <div className="px-[8.3rem]">
         <EffortlessEatsSection />
+        <HealthyEatingInspirationSection />
       </div>
     </div>
   );
