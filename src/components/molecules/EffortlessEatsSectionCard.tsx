@@ -14,12 +14,12 @@ const EffortlessEatsSectionCard = ({
   rating,
 }: EffortlessEatsSectionCardProps) => {
   return (
-    <div>
+    <div className="w-[17.54rem] mb-[7.1rem]">
       <div className="relative mb-2.5">
         <img src={image} alt="" />
         <img src="/favIcon.svg" alt="" className="absolute right-3.5 top-3.5" />
       </div>
-      <p className="text-[1.6rem] w-[20.8rem] font-medium">{name}</p>
+      <p className="text-[1.6rem] font-medium">{name}</p>
       <p className="my-1">
         By <span className="text-[#C57D5D] text-[1.1rem] ">{producer}</span>
       </p>

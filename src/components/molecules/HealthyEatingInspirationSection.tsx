@@ -1,4 +1,4 @@
-import SubHeaderForSection from "./SubHeaderForSection";
+import SubHeaderForSection from "../atoms/SubHeaderForSection";
 
 const HealthyEatingInspirationSection = () => {
   return (

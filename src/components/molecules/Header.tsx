@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import SubHeader from "./SubHeader";
+import SubHeader from "../atoms/SubHeader";
 
 const Header = () => {
   return (
