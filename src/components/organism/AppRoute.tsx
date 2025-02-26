@@ -4,6 +4,7 @@ import Home from "../../pages/Home";
 import About from "../../pages/About";
 import Recipes from "../../pages/Recipes";
 import Articles from "../../pages/Articles";
+import Footer from "../molecules/Footer";
 
 const AppRoute = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoute = () => {
           <Route path="/articles" element={<Articles />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 };

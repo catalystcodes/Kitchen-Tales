@@ -68,3 +68,24 @@ export const RecipeOfTheWeekData = [
     duration: 20,
   },
 ];
+
+export const InternationalFlavorShowcaseData = [
+  {
+    image: "/food5.svg",
+    name: "RECIPE COMPILATION",
+    title: "Italian Delights: A Journey Through Classic Flavors",
+    desc: "Discover the heart of Italy with iconic dishes like pasta al pomodoro and tiramisu, bringing authentic Italian flavors to you.",
+  },
+  {
+    image: "/food6.svg",
+    name: "RECIPE COMPILATION",
+    title: "Spice Up Your Plate: Exploring the Richness of Indian Cuisine",
+    desc: "Dive into the vibrant world of Indian cuisine with aromatic curries, flavorful biryanis, and delectable sweets that ignite the senses.",
+  },
+  {
+    image: "/food7.svg",
+    name: "RECIPE COMPILATION",
+    title: "Savor the Orient: Must-Try Dishes from Asian Kitchens",
+    desc: "Embark on a culinary adventure with Asian favorites like sushi, stir-fries, and dumplings—delicious treasures from diverse Asian cultures.",
+  },
+];
