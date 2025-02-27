@@ -4,12 +4,12 @@ const Hero = () => {
   return (
     <div className="relative">
       <img
-        src="/public/coverImage2.svg"
+        src="/coverImage2.svg"
         alt=""
         className="absolute top-0 left-0 -z-20 w-full"
       />
       <img
-        src="/public/DarkenerCover2.svg"
+        src="/DarkenerCover2.svg"
         alt=""
         className="absolute top-0 left-0 -z-10 w-full"
       />

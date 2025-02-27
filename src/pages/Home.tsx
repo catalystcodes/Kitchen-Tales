@@ -6,10 +6,11 @@ import InternationalFlavorShowcase from "../components/molecules/InternationalFl
 import LiquidHarmony from "../components/molecules/LiquidHarmony";
 import RecipeOfTheWeek from "../components/molecules/RecipeOfTheWeek";
 import SetYourPreferences from "../components/molecules/SetYourPreferences";
+import PageLayout from "../components/organism/PageLayout";
 
 const Home = () => {
   return (
-    <div>
+    <PageLayout showFooter={false}>
       <Hero />
       <div className="px-[8.3rem]">
         <EffortlessEatsSection />
@@ -19,7 +20,7 @@ const Home = () => {
       </div>
       <SetYourPreferences />
       <InternationalFlavorShowcase />
-    </div>
+    </PageLayout>
   );
 };
 

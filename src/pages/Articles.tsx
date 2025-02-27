@@ -1,8 +1,10 @@
+import PageLayout from "../components/organism/PageLayout";
+
 const Articles = () => {
   return (
-    <div>
+    <PageLayout>
       <p>This is the Articles page</p>
-    </div>
+    </PageLayout>
   );
 };
 

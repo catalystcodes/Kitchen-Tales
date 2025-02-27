@@ -1,7 +1,13 @@
 import { Link } from "react-router";
+import { useNavigate } from "react-router-dom";
+
 import SubHeader from "../atoms/SubHeader";
 
-const Header = () => {
+const Navbar = () => {
+  const navigate = useNavigate();
+  const handleNavigateToSignUp = () => {
+    navigate("/signUp");
+  };
   return (
     <div>
       <header className="flex justify-between items-center px-[8.3rem] border-b-1 border-[#a4a4a4] ">
@@ -26,7 +32,11 @@ const Header = () => {
           <p className="text-[1.2rem] font-medium">+ADD A RECIPE</p>
           <div>
             <p className="bg-[#2E5834] text-white py-[0.5rem] px-[1.5rem] rounded-[2.2rem] text-[1.1rem] font-medium cursor-pointer">
-              <span>LOGIN</span> / <span>SIGNUP</span>
+              <span>LOGIN</span> /{" "}
+              <span onClick={handleNavigateToSignUp}>
+                {" "}
+                <Link to="/signUp">SIGNUP</Link>
+              </span>
             </p>
           </div>
         </div>
@@ -36,4 +46,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
