@@ -32,7 +32,10 @@ const Navbar = () => {
           <p className="text-[1.2rem] font-medium">+ADD A RECIPE</p>
           <div>
             <p className="bg-[#2E5834] text-white py-[0.5rem] px-[1.5rem] rounded-[2.2rem] text-[1.1rem] font-medium cursor-pointer">
-              <span>LOGIN</span> /{" "}
+              <span>
+                <Link to="/login">LOGIN</Link>
+              </span>{" "}
+              /{" "}
               <span onClick={handleNavigateToSignUp}>
                 {" "}
                 <Link to="/signUp">SIGNUP</Link>

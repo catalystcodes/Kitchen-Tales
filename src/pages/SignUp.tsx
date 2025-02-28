@@ -1,7 +1,17 @@
+import { useNavigate } from "react-router";
 import AppButton from "../components/atoms/AppButton";
+import AuthButton from "../components/atoms/AuthButton";
 import AuthInput from "../components/atoms/AuthInput";
 
 const SignUp = () => {
+  const navigate = useNavigate();
+  const navigateToLogin = () => {
+    navigate("/login");
+  };
+
+  const navigateToHome = () => {
+    navigate("/");
+  };
   return (
     <div className="flex relative">
       <div className="bg-[url(/signUpCoverImage.svg)] w-[51rem] h-[53.6rem] relative ">
@@ -20,7 +30,12 @@ const SignUp = () => {
       <div className=" w-[50rem] h-[53.45rem] bg-white rounded-tl-[1.7rem] rounded-bl-[1.7rem] absolute top-0 right-0 px-[8.1rem] py-[3.2rem]">
         <div className="flex justify-between items-center mb-[0.9rem]">
           <img src="/LOGO.svg" alt="" />
-          <img src="CloseIcon.svg" alt="" />
+          <img
+            src="CloseIcon.svg"
+            alt=""
+            onClick={navigateToHome}
+            className="cursor-pointer"
+          />
         </div>
         <p className="font-semibold mb-[0.7rem] text-[2.7rem]">
           Create an Account
@@ -33,10 +48,10 @@ const SignUp = () => {
             <AppButton img="/googleIcon.svg" text="Sign up with Google" />
           </div>
         </div>
-        <div className="flex justify-center items-center mb-6 ">
-          <div></div>
+        <div className="flex justify-center items-center mb-6 gap-x-[1rem] ">
+          <div className="w-full h-[.06rem] bg-[#A3A3A3]"></div>
           <p>OR</p>
-          <div></div>
+          <div className="w-full h-[.06rem] bg-[#A3A3A3]"></div>
         </div>
         <div>
           <AuthInput
@@ -57,8 +72,21 @@ const SignUp = () => {
             label="Password"
             placeholder="Enter password"
             type="password"
+            isPassword={true}
           />
         </div>
+        <div className="mt-[1.3rem] mb-[0.4rem]">
+          <AuthButton text="Create Account" />
+        </div>
+        <p className="text-[1.1rem]">
+          Already have an account?
+          <span
+            onClick={navigateToLogin}
+            className="text-[#2E5834] ml-2.5 cursor-pointer"
+          >
+            Log In
+          </span>
+        </p>
       </div>
     </div>
   );
