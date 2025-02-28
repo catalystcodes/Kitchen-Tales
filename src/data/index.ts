@@ -182,5 +182,3 @@ export const BingeWorthyBitesData = [
     rating: 33,
   },
 ];
-
-// Binge1

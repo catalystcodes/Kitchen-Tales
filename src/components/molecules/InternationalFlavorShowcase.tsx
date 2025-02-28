@@ -31,7 +31,7 @@ const InternationalFlavorShowcase = () => {
         topic="International Flavor Showcase"
         viewMoreText="VIEW ALL"
       />
-      <div className="flex gap-x-12 items-center">
+      <div className="flex gap-x-12 items-center ">
         {InternationalFlavorShowcaseData.map((data, index) => (
           <div>
             <InternationalFlavorShowcaseCard key={index} {...data} />
