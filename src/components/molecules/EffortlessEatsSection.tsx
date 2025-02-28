@@ -4,7 +4,7 @@ import SubHeaderForSection from "../atoms/SubHeaderForSection";
 
 const EffortlessEatsSection = () => {
   return (
-    <div className="my-[7.1rem]">
+    <div>
       <div className="pt-[2rem]"></div>
       <SubHeaderForSection
         topic="Effortless Eats"

@@ -2,7 +2,7 @@ import SubHeaderForSection from "../atoms/SubHeaderForSection";
 
 const HealthyEatingInspirationSection = () => {
   return (
-    <div className="mb-[7.1rem]">
+    <div>
       <SubHeaderForSection
         topic="Healthy Eating Inspiration"
         viewMoreText="VIEW ALL"

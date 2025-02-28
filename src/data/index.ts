@@ -89,3 +89,98 @@ export const InternationalFlavorShowcaseData = [
     desc: "Embark on a culinary adventure with Asian favorites like sushi, stir-fries, and dumplings—delicious treasures from diverse Asian cultures.",
   },
 ];
+
+export const MorningDelightsData = [
+  {
+    name: "Everyday Pancake",
+    image: "/food8.svg",
+    producer: "Jenn Segal",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Baked Oats",
+    image: "/food9.svg",
+    producer: "Love & Lemons",
+    duration: 25,
+    rating: 24,
+  },
+  {
+    name: "Cheesy Masala Beans on Toast",
+    image: "/food10.svg",
+    producer: "Sanjana Feasts ",
+    duration: 25,
+    rating: 11,
+  },
+  {
+    name: "Aloo Puri",
+    image: "/food11.svg",
+    producer: "Madhu Singh",
+    duration: 40,
+    rating: 33,
+  },
+];
+
+export const SweetSerenityData = [
+  {
+    name: "Gooey Butter Cake",
+    image: "/Sweet1.svg",
+    producer: "Jenn Segal",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Vegan Carrot Halwa Panna Cotta",
+    image: "/Sweet2.svg",
+    producer: "Love & Lemons",
+    duration: 25,
+    rating: 24,
+  },
+  {
+    name: "Key Lime Pie",
+    image: "/Sweet3.svg",
+    producer: "Sanjana Feasts ",
+    duration: 25,
+    rating: 11,
+  },
+  {
+    name: "Eggless Choco Lava Cake",
+    image: "/Sweet4.svg",
+    producer: "Madhu Singh",
+    duration: 40,
+    rating: 33,
+  },
+];
+
+export const BingeWorthyBitesData = [
+  {
+    name: "Chocolate Roll Snack Cakes",
+    image: "/Binge1.svg",
+    producer: "Jenn Segal",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Gur Makhana",
+    image: "/Binge2.svg",
+    producer: "Love & Lemons",
+    duration: 25,
+    rating: 24,
+  },
+  {
+    name: "Passionfruit & Coconut Muffins",
+    image: "/Binge3.svg",
+    producer: "Sanjana Feasts ",
+    duration: 25,
+    rating: 11,
+  },
+  {
+    name: "Corn Cutlet",
+    image: "/Binge4.svg",
+    producer: "Madhu Singh",
+    duration: 40,
+    rating: 33,
+  },
+];
+
+// Binge1

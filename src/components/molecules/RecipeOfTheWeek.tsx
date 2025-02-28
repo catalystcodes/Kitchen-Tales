@@ -34,7 +34,7 @@ const RecipeOfTheWeekCard = ({
 
 const RecipeOfTheWeek = () => {
   return (
-    <div className="mb-[7.1rem]">
+    <div>
       <SubHeaderForSection topic="Recipe of the Week" />
       <div>
         {RecipeOfTheWeekData.map((recipe, index) => (

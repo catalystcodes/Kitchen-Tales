@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <PageLayout showFooter={false}>
       <Hero />
-      <div className="px-[8.3rem]">
+      <div className="px-[8.3rem] my-[7.1rem] flex flex-col gap-y-[7.1rem]">
         <EffortlessEatsSection />
         <HealthyEatingInspirationSection />
         <LiquidHarmony />
