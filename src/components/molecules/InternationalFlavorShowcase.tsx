@@ -1,4 +1,4 @@
-import { InternationalFlavorShowcaseData } from "../../data";
+import { InternationalFlavorShowcaseData2 } from "../../data";
 import SubHeaderForSection from "../atoms/SubHeaderForSection";
 
 interface InternationalFlavorShowcaseProps {
@@ -31,8 +31,8 @@ const InternationalFlavorShowcase = () => {
         topic="International Flavor Showcase"
         viewMoreText="VIEW ALL"
       />
-      <div className="flex gap-x-12 items-center ">
-        {InternationalFlavorShowcaseData.map((data, index) => (
+      <div className="flex gap-x-12 items-center flex-wrap ">
+        {InternationalFlavorShowcaseData2.map((data, index) => (
           <div>
             <InternationalFlavorShowcaseCard key={index} {...data} />
           </div>
