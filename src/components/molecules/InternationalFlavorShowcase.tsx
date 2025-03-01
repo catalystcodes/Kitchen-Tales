@@ -8,7 +8,7 @@ interface InternationalFlavorShowcaseProps {
   desc: string;
 }
 
-const InternationalFlavorShowcaseCard = ({
+export const InternationalFlavorShowcaseCard = ({
   image,
   name,
   title,
@@ -31,9 +31,9 @@ const InternationalFlavorShowcase = () => {
         topic="International Flavor Showcase"
         viewMoreText="VIEW ALL"
       />
-      <div className="flex gap-x-12 items-center flex-wrap ">
+      <div className="flex gap-x-12 gap-y-12 items-center flex-wrap ">
         {InternationalFlavorShowcaseData2.map((data, index) => (
-          <div>
+          <div className="w-[23.2rem]">
             <InternationalFlavorShowcaseCard key={index} {...data} />
           </div>
         ))}

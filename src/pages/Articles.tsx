@@ -1,5 +1,6 @@
 import HealthyEatingInspirationSection from "../components/molecules/HealthyEatingInspirationSection";
 import InternationalFlavorShowcase from "../components/molecules/InternationalFlavorShowcase";
+import MoreArticles from "../components/molecules/moreArticles";
 import PageLayout from "../components/organism/PageLayout";
 
 const Articles = () => {
@@ -25,7 +26,7 @@ const Articles = () => {
       </div>
 
       <InternationalFlavorShowcase />
-      <div className="px-[8.3rem]  flex flex-col gap-y-[7.1rem]">
+      <div className="px-[8.3rem]  flex flex-col gap-y-[7.1rem] mb-[8.9rem]">
         <HealthyEatingInspirationSection
           topic="Comfort Classics"
           desc1="Craft comforting dishes from scratch and transform your kitchen into a haven of warmth and deliciousness."
@@ -36,6 +37,7 @@ const Articles = () => {
           header3="Flavorful Innovations: Modern Twists on Comfort Tradition"
           img="/healthyEatingImage2.svg"
         />
+        <MoreArticles />
       </div>
     </PageLayout>
   );
