@@ -15,6 +15,7 @@ const Home = () => {
       <div className="px-[8.3rem] my-[7.1rem] flex flex-col gap-y-[7.1rem]">
         <EffortlessEatsSection />
         <HealthyEatingInspirationSection
+          topic="Healthy Eating Inspiration"
           desc1="Explore a collection of mouthwatering recipes that not only
           delight your taste buds but also pack a powerful nutritional
           punch."
