@@ -5,7 +5,7 @@ import Recipes from "../../pages/Recipes";
 import Articles from "../../pages/Articles";
 import SignUp from "../../pages/SignUp";
 import Login from "../../pages/Login";
-import RecipesDetailsPage from "../../pages/RecipesDetailsPage";
+import CookPage from "../../pages/CookPage";
 
 const AppRoute = () => {
   return (
@@ -17,6 +17,7 @@ const AppRoute = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/articles" element={<Articles />} />
       {/* <Route path="/" element={<RecipesDetailsPage />} /> */}
+      <Route path="/cook" element={<CookPage />} />
     </Routes>
   );
 };

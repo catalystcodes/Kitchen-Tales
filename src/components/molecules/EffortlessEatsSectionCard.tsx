@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router";
+
 interface EffortlessEatsSectionCardProps {
   name: string;
   image: string;
@@ -13,6 +15,10 @@ const EffortlessEatsSectionCard = ({
   duration,
   rating,
 }: EffortlessEatsSectionCardProps) => {
+  const navigate = useNavigate();
+  const handleNavigateToCookDetails = () => {
+    navigate("/cook");
+  };
   return (
     <div className="w-[17.54rem] mb-[7.1rem]">
       <div className="relative mb-2.5">
@@ -21,7 +27,13 @@ const EffortlessEatsSectionCard = ({
       </div>
       <p className="text-[1.6rem] font-medium">{name}</p>
       <p className="my-1">
-        By <span className="text-[#C57D5D] text-[1.1rem] ">{producer}</span>
+        By{" "}
+        <span
+          className="text-[#C57D5D] text-[1.1rem] cursor-pointer  "
+          onClick={handleNavigateToCookDetails}
+        >
+          {producer}
+        </span>
       </p>
       <p className="font-light">Total time: {duration} mins </p>
       <span className="flex gap-x-[0.5rem]">

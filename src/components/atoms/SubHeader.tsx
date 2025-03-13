@@ -163,7 +163,7 @@ const SubHeader: React.FC = () => {
     if (!isOpen) return null;
 
     return (
-      <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white z-10 py-1">
+      <div className="absolute left-0 mt-2 w-48  shadow-lg bg-white z-10 py-1">
         {options.map((option) => (
           <Link key={option.path} to={option.path} onClick={closeDropdown}>
             <div
@@ -184,8 +184,7 @@ const SubHeader: React.FC = () => {
   return (
     <nav className="flex pl-[2rem] py-2 md:ml-80">
       <div className="flex items-center gap-x-8">
-        {/* Popular dropdown */}
-        <div className="relative" ref={popularDropdownRef}>
+        <div className="relative cursor-pointer" ref={popularDropdownRef}>
           <button
             type="button"
             onClick={() => setShowPopularDropdown(!showPopularDropdown)}
@@ -203,7 +202,6 @@ const SubHeader: React.FC = () => {
           )}
         </div>
 
-        {/* Ingredients dropdown */}
         <div className="relative" ref={ingredientsDropdownRef}>
           <button
             type="button"
@@ -222,7 +220,7 @@ const SubHeader: React.FC = () => {
           )}
         </div>
 
-        {/* Meals & Dishes dropdown */}
+        {/* Meals & Dishes dropdown  */}
         <div className="relative" ref={mealsDropdownRef}>
           <button
             type="button"
