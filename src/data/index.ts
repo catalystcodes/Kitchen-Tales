@@ -278,3 +278,48 @@ export const MoreArticlesData = [
     desc: "Dive into the vibrant world of Indian cuisine with aromatic curries, flavorful biryanis, and delectable sweets that ignite the senses.",
   },
 ];
+
+export const CookWorkData = [
+  {
+    name: "Pork & Chive Dumplings",
+    image: "/food19.svg",
+    producer: "JUDY LEUNG",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Tomato Potato Soup",
+    image: "/food20.svg",
+    producer: "JUDY LEUNG",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Hainan Chicken Rice",
+    image: "/food21.svg",
+    producer: "JUDY LEUNG",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Chinese Chicken Noodle Soup",
+    image: "/food22.svg",
+    producer: "JUDY LEUNG",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Multigrain Bread",
+    image: "/food23.svg",
+    producer: "JUDY LEUNG",
+    duration: 20,
+    rating: 32,
+  },
+  {
+    name: "Braised Ground Pork & Potatoes",
+    image: "/food24.svg",
+    producer: "JUDY LEUNG",
+    duration: 20,
+    rating: 32,
+  },
+];

@@ -9,8 +9,8 @@ const Navbar = () => {
     navigate("/signUp");
   };
   return (
-    <div>
-      <header className="flex justify-between items-center px-[8.3rem] border-b-1 border-[#a4a4a4] ">
+    <div className="shadow-md">
+      <header className="flex justify-between items-center px-[8.3rem] border-b-[0.05rem] border-[#a4a4a4]">
         <div className="flex items-center gap-x-[4.4rem] ">
           <Link to="/">
             <img src="/LOGO.svg" alt="" />
