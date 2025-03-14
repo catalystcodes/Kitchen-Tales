@@ -6,6 +6,7 @@ import Articles from "../../pages/Articles";
 import SignUp from "../../pages/SignUp";
 import Login from "../../pages/Login";
 import CookPage from "../../pages/CookPage";
+import RecipeDetails from "../../pages/RecipeDetails";
 
 const AppRoute = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoute = () => {
       <Route path="/articles" element={<Articles />} />
       {/* <Route path="/" element={<RecipesDetailsPage />} /> */}
       <Route path="/cook" element={<CookPage />} />
+      <Route path="/cook/:productId" element={<RecipeDetails />} />
     </Routes>
   );
 };

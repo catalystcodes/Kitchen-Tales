@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 
 interface EffortlessEatsSectionCardProps {
+  id: string;
   name: string;
   image: string;
   producer: string;
@@ -9,6 +10,7 @@ interface EffortlessEatsSectionCardProps {
 }
 
 const EffortlessEatsSectionCard = ({
+  id,
   name,
   image,
   producer,
@@ -19,13 +21,22 @@ const EffortlessEatsSectionCard = ({
   const handleNavigateToCookDetails = () => {
     navigate("/cook");
   };
+
+  const handleCardClick = () => {
+    navigate(`/cook/${id}`);
+  };
   return (
     <div className="w-[17.54rem] mb-[7.1rem]">
       <div className="relative mb-2.5">
         <img src={image} alt="" />
         <img src="/favIcon.svg" alt="" className="absolute right-3.5 top-3.5" />
       </div>
-      <p className="text-[1.6rem] font-medium">{name}</p>
+      <p
+        className="text-[1.6rem] font-medium cursor-pointer"
+        onClick={handleCardClick}
+      >
+        {name}
+      </p>
       <p className="my-1">
         By{" "}
         <span

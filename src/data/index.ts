@@ -281,6 +281,7 @@ export const MoreArticlesData = [
 
 export const CookWorkData = [
   {
+    id: "1",
     name: "Pork & Chive Dumplings",
     image: "/food19.svg",
     producer: "JUDY LEUNG",
@@ -288,6 +289,7 @@ export const CookWorkData = [
     rating: 32,
   },
   {
+    id: "2",
     name: "Tomato Potato Soup",
     image: "/food20.svg",
     producer: "JUDY LEUNG",
@@ -295,6 +297,7 @@ export const CookWorkData = [
     rating: 32,
   },
   {
+    id: "3",
     name: "Hainan Chicken Rice",
     image: "/food21.svg",
     producer: "JUDY LEUNG",
@@ -302,6 +305,7 @@ export const CookWorkData = [
     rating: 32,
   },
   {
+    id: "4",
     name: "Chinese Chicken Noodle Soup",
     image: "/food22.svg",
     producer: "JUDY LEUNG",
@@ -309,6 +313,7 @@ export const CookWorkData = [
     rating: 32,
   },
   {
+    id: "5",
     name: "Multigrain Bread",
     image: "/food23.svg",
     producer: "JUDY LEUNG",
@@ -316,6 +321,7 @@ export const CookWorkData = [
     rating: 32,
   },
   {
+    id: "6",
     name: "Braised Ground Pork & Potatoes",
     image: "/food24.svg",
     producer: "JUDY LEUNG",
