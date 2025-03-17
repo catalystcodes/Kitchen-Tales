@@ -6,6 +6,7 @@ import OverView from "../components/molecules/OverView";
 import CookTips from "../components/molecules/CookTips";
 import Ingredients from "../components/molecules/Ingredients";
 import AddToChart from "../components/molecules/AddToChart";
+import Substitutions from "../components/molecules/Substitutions";
 
 const RecipeDetails = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -46,6 +47,7 @@ const RecipeDetails = () => {
         <CookTips />
         <Ingredients />
         <AddToChart />
+        <Substitutions />
       </div>
     </PageLayout>
   );
