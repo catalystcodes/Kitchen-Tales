@@ -287,6 +287,7 @@ export const CookWorkData = [
     producer: "JUDY LEUNG",
     duration: 20,
     rating: 32,
+    bigImage: "/recipeDetailImg.svg",
   },
   {
     id: "2",
@@ -295,6 +296,7 @@ export const CookWorkData = [
     producer: "JUDY LEUNG",
     duration: 20,
     rating: 32,
+    bigImage: "/recipeDetailImg.svg",
   },
   {
     id: "3",
@@ -303,6 +305,7 @@ export const CookWorkData = [
     producer: "JUDY LEUNG",
     duration: 20,
     rating: 32,
+    bigImage: "/recipeDetailImg.svg",
   },
   {
     id: "4",
@@ -311,6 +314,7 @@ export const CookWorkData = [
     producer: "JUDY LEUNG",
     duration: 20,
     rating: 32,
+    bigImage: "/recipeDetailImg.svg",
   },
   {
     id: "5",
@@ -319,6 +323,7 @@ export const CookWorkData = [
     producer: "JUDY LEUNG",
     duration: 20,
     rating: 32,
+    bigImage: "/recipeDetailImg.svg",
   },
   {
     id: "6",
@@ -327,5 +332,6 @@ export const CookWorkData = [
     producer: "JUDY LEUNG",
     duration: 20,
     rating: 32,
+    bigImage: "/recipeDetailImg.svg",
   },
 ];
