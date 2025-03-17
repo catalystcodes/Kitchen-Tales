@@ -4,6 +4,8 @@ import PageLayout from "../components/organism/PageLayout";
 import NavigationIndicator from "../components/molecules/NavigationIndicator";
 import OverView from "../components/molecules/OverView";
 import CookTips from "../components/molecules/CookTips";
+import Ingredients from "../components/molecules/Ingredients";
+import AddToChart from "../components/molecules/AddToChart";
 
 const RecipeDetails = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -42,6 +44,8 @@ const RecipeDetails = () => {
         </div>
         <OverView />
         <CookTips />
+        <Ingredients />
+        <AddToChart />
       </div>
     </PageLayout>
   );

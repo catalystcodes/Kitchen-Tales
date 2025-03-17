@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router";
 
 interface EffortlessEatsSectionCardProps {
-  id: string;
+  id?: string;
   name: string;
   image: string;
   producer: string;
