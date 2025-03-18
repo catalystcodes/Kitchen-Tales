@@ -8,7 +8,7 @@ import Ingredients from "../components/molecules/Ingredients";
 import AddToChart from "../components/molecules/AddToChart";
 import Substitutions from "../components/molecules/Substitutions";
 import RecipeVideo from "../components/molecules/RecipeVideo";
-import Instructions from "../components/molecules/Instructions";
+import RecipeInstructions from "../components/molecules/RecipeInstructions";
 
 const RecipeDetails = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -51,7 +51,7 @@ const RecipeDetails = () => {
         <AddToChart />
         <Substitutions />
         <RecipeVideo />
-        <Instructions />
+        <RecipeInstructions recipeId={product.id} />
       </div>
     </PageLayout>
   );

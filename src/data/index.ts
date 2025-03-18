@@ -288,6 +288,57 @@ export const CookWorkData = [
     duration: 20,
     rating: 32,
     bigImage: "/recipeDetailImg.svg",
+    instruction1: [
+      {
+        desc: `Heat a teaspoon of oil in a wok or pan over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok.
+        Set aside to cool. They will turn crunchy once they’re cooled completely.`,
+        img: "/instruct1.svg",
+      },
+    ],
+    instruction2: [
+      {
+        desc: `Combine the chicken breast (you could also use boneless skinless chicken thighs) with 1 teaspoon each of oil, cornstarch, and shaoxing wine, 1/8 teaspoon salt, and a pinch of white pepper. Set aside to marinate for 20 minutes.`,
+        img: "/instruct2.svg",
+      },
+    ],
+    instruction3: [
+      {
+        desc: `In a small bowl, mix together light soy sauce, dark soy sauce, rice wine vinegar, sugar, water, and cornstarch, and set aside.`,
+        img: "",
+      },
+    ],
+    instruction4: [
+      {
+        desc: `Heat 2 tablespoons oil in a wok or large skillet over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.`,
+        img: "/instruct4.svg",
+      },
+    ],
+    instruction5: [
+      {
+        desc: `Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.`,
+        img: "/instruct5.svg",
+      },
+    ],
+    instruction6: [
+      {
+        desc: `Add the chicken back to the wok. Turn up the heat to high and stir-fry for a minute.
+        Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).
+        Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.`,
+        img: "/instruct6.svg",
+      },
+    ],
+    instruction7: [
+      {
+        desc: `Finally, add the peanuts.`,
+        img: "/instruct7.svg",
+      },
+    ],
+    instruction8: [
+      {
+        desc: `Give everything a final stir and serve.`,
+        img: "/instruct8.svg",
+      },
+    ],
   },
   {
     id: "2",
@@ -297,6 +348,57 @@ export const CookWorkData = [
     duration: 20,
     rating: 32,
     bigImage: "/recipeDetailImg.svg",
+    instruction1: [
+      {
+        desc: `Heat a teaspoon of oil in a wok or pan over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok.
+        Set aside to cool. They will turn crunchy once they’re cooled completely.`,
+        img: "/instruct1.svg",
+      },
+    ],
+    instruction2: [
+      {
+        desc: `Combine the chicken breast (you could also use boneless skinless chicken thighs) with 1 teaspoon each of oil, cornstarch, and shaoxing wine, 1/8 teaspoon salt, and a pinch of white pepper. Set aside to marinate for 20 minutes.`,
+        img: "/instruct2.svg",
+      },
+    ],
+    instruction3: [
+      {
+        desc: `In a small bowl, mix together light soy sauce, dark soy sauce, rice wine vinegar, sugar, water, and cornstarch, and set aside.`,
+        img: "",
+      },
+    ],
+    instruction4: [
+      {
+        desc: `Heat 2 tablespoons oil in a wok or large skillet over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.`,
+        img: "/instruct4.svg",
+      },
+    ],
+    instruction5: [
+      {
+        desc: `Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.`,
+        img: "/instruct5.svg",
+      },
+    ],
+    instruction6: [
+      {
+        desc: `Add the chicken back to the wok. Turn up the heat to high and stir-fry for a minute.
+        Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).
+        Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.`,
+        img: "/instruct6.svg",
+      },
+    ],
+    instruction7: [
+      {
+        desc: `Finally, add the peanuts.`,
+        img: "/instruct7.svg",
+      },
+    ],
+    instruction8: [
+      {
+        desc: `Give everything a final stir and serve.`,
+        img: "/instruct8.svg",
+      },
+    ],
   },
   {
     id: "3",
@@ -306,6 +408,57 @@ export const CookWorkData = [
     duration: 20,
     rating: 32,
     bigImage: "/recipeDetailImg.svg",
+    instruction1: [
+      {
+        desc: `Heat a teaspoon of oil in a wok or pan over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok.
+        Set aside to cool. They will turn crunchy once they’re cooled completely.`,
+        img: "/instruct1.svg",
+      },
+    ],
+    instruction2: [
+      {
+        desc: `Combine the chicken breast (you could also use boneless skinless chicken thighs) with 1 teaspoon each of oil, cornstarch, and shaoxing wine, 1/8 teaspoon salt, and a pinch of white pepper. Set aside to marinate for 20 minutes.`,
+        img: "/instruct2.svg",
+      },
+    ],
+    instruction3: [
+      {
+        desc: `In a small bowl, mix together light soy sauce, dark soy sauce, rice wine vinegar, sugar, water, and cornstarch, and set aside.`,
+        img: "",
+      },
+    ],
+    instruction4: [
+      {
+        desc: `Heat 2 tablespoons oil in a wok or large skillet over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.`,
+        img: "/instruct4.svg",
+      },
+    ],
+    instruction5: [
+      {
+        desc: `Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.`,
+        img: "/instruct5.svg",
+      },
+    ],
+    instruction6: [
+      {
+        desc: `Add the chicken back to the wok. Turn up the heat to high and stir-fry for a minute.
+        Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).
+        Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.`,
+        img: "/instruct6.svg",
+      },
+    ],
+    instruction7: [
+      {
+        desc: `Finally, add the peanuts.`,
+        img: "/instruct7.svg",
+      },
+    ],
+    instruction8: [
+      {
+        desc: `Give everything a final stir and serve.`,
+        img: "/instruct8.svg",
+      },
+    ],
   },
   {
     id: "4",
@@ -315,6 +468,57 @@ export const CookWorkData = [
     duration: 20,
     rating: 32,
     bigImage: "/recipeDetailImg.svg",
+    instruction1: [
+      {
+        desc: `Heat a teaspoon of oil in a wok or pan over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok.
+        Set aside to cool. They will turn crunchy once they’re cooled completely.`,
+        img: "/instruct1.svg",
+      },
+    ],
+    instruction2: [
+      {
+        desc: `Combine the chicken breast (you could also use boneless skinless chicken thighs) with 1 teaspoon each of oil, cornstarch, and shaoxing wine, 1/8 teaspoon salt, and a pinch of white pepper. Set aside to marinate for 20 minutes.`,
+        img: "/instruct2.svg",
+      },
+    ],
+    instruction3: [
+      {
+        desc: `In a small bowl, mix together light soy sauce, dark soy sauce, rice wine vinegar, sugar, water, and cornstarch, and set aside.`,
+        img: "",
+      },
+    ],
+    instruction4: [
+      {
+        desc: `Heat 2 tablespoons oil in a wok or large skillet over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.`,
+        img: "/instruct4.svg",
+      },
+    ],
+    instruction5: [
+      {
+        desc: `Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.`,
+        img: "/instruct5.svg",
+      },
+    ],
+    instruction6: [
+      {
+        desc: `Add the chicken back to the wok. Turn up the heat to high and stir-fry for a minute.
+        Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).
+        Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.`,
+        img: "/instruct6.svg",
+      },
+    ],
+    instruction7: [
+      {
+        desc: `Finally, add the peanuts.`,
+        img: "/instruct7.svg",
+      },
+    ],
+    instruction8: [
+      {
+        desc: `Give everything a final stir and serve.`,
+        img: "/instruct8.svg",
+      },
+    ],
   },
   {
     id: "5",
@@ -324,6 +528,57 @@ export const CookWorkData = [
     duration: 20,
     rating: 32,
     bigImage: "/recipeDetailImg.svg",
+    instruction1: [
+      {
+        desc: `Heat a teaspoon of oil in a wok or pan over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok.
+        Set aside to cool. They will turn crunchy once they’re cooled completely.`,
+        img: "/instruct1.svg",
+      },
+    ],
+    instruction2: [
+      {
+        desc: `Combine the chicken breast (you could also use boneless skinless chicken thighs) with 1 teaspoon each of oil, cornstarch, and shaoxing wine, 1/8 teaspoon salt, and a pinch of white pepper. Set aside to marinate for 20 minutes.`,
+        img: "/instruct2.svg",
+      },
+    ],
+    instruction3: [
+      {
+        desc: `In a small bowl, mix together light soy sauce, dark soy sauce, rice wine vinegar, sugar, water, and cornstarch, and set aside.`,
+        img: "",
+      },
+    ],
+    instruction4: [
+      {
+        desc: `Heat 2 tablespoons oil in a wok or large skillet over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.`,
+        img: "/instruct4.svg",
+      },
+    ],
+    instruction5: [
+      {
+        desc: `Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.`,
+        img: "/instruct5.svg",
+      },
+    ],
+    instruction6: [
+      {
+        desc: `Add the chicken back to the wok. Turn up the heat to high and stir-fry for a minute.
+        Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).
+        Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.`,
+        img: "/instruct6.svg",
+      },
+    ],
+    instruction7: [
+      {
+        desc: `Finally, add the peanuts.`,
+        img: "/instruct7.svg",
+      },
+    ],
+    instruction8: [
+      {
+        desc: `Give everything a final stir and serve.`,
+        img: "/instruct8.svg",
+      },
+    ],
   },
   {
     id: "6",
