@@ -53,7 +53,6 @@ const getRecipeInstructions = (id: string): React.ReactNode => {
   // Collect all available instruction steps
   return (
     <div className="">
-      {/* <h2>Instructions for {recipe.name}</h2> */}
       {recipe.instruction1?.map((step: InstructionStep, index: number) => (
         <InstructionsCard {...step} key={index} />
       ))}
