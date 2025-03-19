@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 const CookTips = () => {
+  const [servings, setServings] = useState(30);
   return (
     <div className="mt-20">
       <p className="text-[2.2rem] font-semibold mb-6">Cook’s Tips</p>
@@ -36,7 +39,23 @@ const CookTips = () => {
         <div className="flex items-center flex-col  px-16">
           <img src="/servingIcon.svg" alt="" />
           <p className="font-medium text-[1.3rem] mt-1">Servings</p>
-          <p className="text-[#848484]  text-[1.3rem]">30 </p>
+          <div className="relative">
+            <select
+              value={servings}
+              onChange={(e) => setServings(Number(e.target.value))}
+              className="appearance-none bg-white rounded px-3 py-1 text-xl text-gray-500"
+            >
+              {[2, 4, 6, 8, 10, 20, 30, 40, 50].map((num) => (
+                <option key={num} value={num}>
+                  {num}
+                </option>
+              ))}
+            </select>
+            <div className="absolute right-1 top-1">
+              <img src="/ServingPlusIcon.svg" alt="" className="rotate-180 " />
+              <img src="/ServingPlusIcon.svg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

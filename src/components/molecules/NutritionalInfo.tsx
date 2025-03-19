@@ -9,93 +9,96 @@ const NutritionalInfo = () => {
           Servings per recipe: 4
         </p>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] bg-[#] py-2  ">
-          <p>Per Serving</p>
-          <p>% Daily Value*</p>
+          <p className="font-semibold text-[1.2rem]">Per Serving</p>
+          <p className="font-semibold text-[1.2rem]">% Daily Value*</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Calories: <span>440</span>
+          <p className="font-medium text-[1.2rem]">
+            Calories: <span className="font-normal">440</span>
           </p>
           <p></p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Carbohydrates: <span>11g</span>
+          <p className="font-medium text-[1.2rem]">
+            Carbohydrates: <span className="font-normal">11g</span>
           </p>
-          <p>4%</p>
+          <p className="font-medium text-[1.2rem]">4%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Protein: <span>29g</span>
+          <p className="font-medium text-[1.2rem]">
+            Protein: <span className="font-normal">29g</span>
           </p>
-          <p>58%</p>
+          <p className="font-medium text-[1.2rem]">58%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Fat: <span>33g</span>
+          <p className="font-medium text-[1.2rem]">
+            Fat: <span className="font-normal">33g</span>
           </p>
-          <p>51%</p>
+          <p className="font-medium text-[1.2rem]">51%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Saturated Fat: <span>6g</span>
+          <p className="font-medium text-[1.2rem]">
+            Saturated Fat: <span className="font-normal">6g</span>
           </p>
-          <p>30%</p>
+          <p className="font-medium text-[1.2rem]">30%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Cholesterol: <span>54mg</span>
+          <p className="font-medium text-[1.2rem]">
+            Cholesterol: <span className="font-normal">54mg</span>
           </p>
-          <p>18%</p>
+          <p className="font-medium text-[1.2rem]">18%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Sodium: <span>477mg</span>
+          <p className="font-medium text-[1.2rem]">
+            Sodium: <span className="font-normal">477mg</span>
           </p>
-          <p>20%</p>
+          <p className="font-medium text-[1.2rem]">20%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Potassium: <span>654mg</span>
+          <p className="font-medium text-[1.2rem]">
+            Potassium: <span className="font-normal">654mg</span>
           </p>
-          <p>19%</p>
+          <p className="font-medium text-[1.2rem]">19%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Fiber: <span>4g</span>
+          <p className="font-medium text-[1.2rem]">
+            Fiber: <span className="font-normal">4g</span>
           </p>
-          <p>16%</p>
+          <p className="font-medium text-[1.2rem]">16%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Sugar: <span>2g</span>
+          <p className="font-medium text-[1.2rem]">
+            Sugar: <span className="font-normal">2g</span>
           </p>
-          <p>2%</p>
+          <p className="font-medium text-[1.2rem]">2%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Vitamin A: <span>270IU</span>
+          <p className="font-medium text-[1.2rem]">
+            Vitamin A: <span className="font-normal">270IU</span>
           </p>
-          <p>5%</p>
+          <p className="font-medium text-[1.2rem]">5%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Vitamin C: <span>5.1mg</span>
+          <p className="font-medium text-[1.2rem]">
+            Vitamin C: <span className="font-normal">5.1mg</span>
           </p>
-          <p>6%</p>
+          <p className="font-medium text-[1.2rem]">6%</p>
         </div>
         <div className="flex items-center justify-between border-b-1 border-[#D9D9D9] py-2">
-          <p>
-            Calcium: <span>60mg</span>
+          <p className="font-medium text-[1.2rem]">
+            Calcium: <span className="font-normal">60mg</span>
           </p>
-          <p>6%</p>
+          <p className="font-medium text-[1.2rem]">6%</p>
         </div>
         <div className="flex items-center justify-between border-b-[0.3rem] border-[#D9D9D9] py-2">
-          <p>
-            Iron: <span>2.1mg</span>
+          <p className="font-medium text-[1.2rem]">
+            Iron: <span className="font-normal">2.1mg</span>
           </p>
-          <p>12%</p>
+          <p className="font-medium text-[1.2rem]">12%</p>
         </div>
+        <p className="text-[1.2rem] italic text-[#444444] mt-4">
+          *Based on a 2,000 calorie diet
+        </p>
       </div>
     </div>
   );

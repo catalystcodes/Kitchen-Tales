@@ -10,6 +10,7 @@ import Substitutions from "../components/molecules/Substitutions";
 import RecipeVideo from "../components/molecules/RecipeVideo";
 import RecipeInstructions from "../components/molecules/RecipeInstructions";
 import NutritionalInfo from "../components/molecules/NutritionalInfo";
+import PrivateNote from "../components/molecules/PrivateNote";
 
 const RecipeDetails = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -53,7 +54,11 @@ const RecipeDetails = () => {
         <Substitutions />
         <RecipeVideo />
         <RecipeInstructions recipeId={product.id} />
-        <NutritionalInfo />
+        <div className="flex justify-between items-start">
+          <NutritionalInfo />
+          <img src="/Divider (1).svg" alt="" />
+          <PrivateNote />
+        </div>
       </div>
     </PageLayout>
   );
