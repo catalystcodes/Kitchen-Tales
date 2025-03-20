@@ -11,6 +11,7 @@ import RecipeVideo from "../components/molecules/RecipeVideo";
 import RecipeInstructions from "../components/molecules/RecipeInstructions";
 import NutritionalInfo from "../components/molecules/NutritionalInfo";
 import PrivateNote from "../components/molecules/PrivateNote";
+import Tags from "../components/molecules/Tags";
 
 const RecipeDetails = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -59,6 +60,7 @@ const RecipeDetails = () => {
           <img src="/Divider (1).svg" alt="" />
           <PrivateNote />
         </div>
+        <Tags />
       </div>
     </PageLayout>
   );
