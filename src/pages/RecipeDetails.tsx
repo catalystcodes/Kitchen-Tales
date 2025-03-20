@@ -12,6 +12,7 @@ import RecipeInstructions from "../components/molecules/RecipeInstructions";
 import NutritionalInfo from "../components/molecules/NutritionalInfo";
 import PrivateNote from "../components/molecules/PrivateNote";
 import Tags from "../components/molecules/Tags";
+import Reviews from "../components/molecules/Reviews";
 
 const RecipeDetails = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -61,6 +62,7 @@ const RecipeDetails = () => {
           <PrivateNote />
         </div>
         <Tags />
+        <Reviews />
       </div>
     </PageLayout>
   );
