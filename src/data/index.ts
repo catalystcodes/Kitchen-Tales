@@ -590,3 +590,26 @@ export const CookWorkData = [
     bigImage: "/recipeDetailImg.svg",
   },
 ];
+
+export const ReviewData = [
+  {
+    name: "Angela Mcilwaine",
+    desc: "My husband and I just finished eating the Kung Pao Chicken and it was delicious. I followed the recipe exactly. I did go to our local Asian grocery store and purchased all the items.",
+    date: "25/01/2024",
+  },
+  {
+    name: "Jasper Noronha",
+    desc: "I made this with some home-made seitan and adding green bell peppers, some frozen thai chilis, and some julienned daikon and some minced cilantro stems (why not?), it turned out delicious! Great recipe.",
+    date: "24/01/2024",
+  },
+  {
+    name: "Jasper Noronha",
+    desc: "I made this with some home-made seitan and adding green bell peppers, some frozen thai chilis, and some julienned daikon and some minced cilantro stems (why not?), it turned out delicious! Great recipe.",
+    date: "24/01/2024",
+  },
+  {
+    name: "Angela Mcilwaine",
+    desc: "My husband and I just finished eating the Kung Pao Chicken and it was delicious. I followed the recipe exactly. I did go to our local Asian grocery store and purchased all the items.",
+    date: "25/01/2024",
+  },
+];
