@@ -1,4 +1,3 @@
-import AppInput from "../components/atoms/AppInput";
 import EffortlessEatsSection from "../components/molecules/EffortlessEatsSection";
 import HealthyEatingInspirationSection from "../components/molecules/HealthyEatingInspirationSection";
 import Hero from "../components/molecules/Hero";
